@@ -2,6 +2,10 @@ import click
 from database import database
 from models import User, Post
 
+# Initialize database tables
+database.connect()
+database.create_tables([User, Post])
+
 @click.group()
 def cli():
     pass
