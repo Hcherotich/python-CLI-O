@@ -96,16 +96,25 @@ Commands:
 Project Structure:
 
 •	main.py: Main script containing the application logic.
+
 •	models.py: Defines the custom ORM models (User, Post, Comment - Comment functionality not currently implemented).
+
 •	database.py: Handles database connection and table creation.
+
 •	README.md: This file (you're reading it now!).
 
 Important Note:
+
 •	While this application demonstrates basic functionalities, it can be extended to include features like: 
+
 o	User authentication and authorization.
+
 o	Post editing and deletion.
+
 o	Commenting functionality.
+
 o	Integration with a database engine like SQLite or PostgreSQL.
+
 •	Feel free to modify and enhance the code based on your specific needs.
 
 Testing:
