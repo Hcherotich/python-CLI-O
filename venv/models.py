@@ -1,5 +1,3 @@
-# models.py
-
 from peewee import Model, CharField, ForeignKeyField
 from database import database
 
@@ -26,3 +24,7 @@ class Post(BaseModel):
     @classmethod
     def find_by_user(cls, user):
         return cls.select().where(cls.user == user)
+
+class Comment(BaseModel):
+    content = CharField()
+    post = ForeignKeyField(Post, backref='comments')
