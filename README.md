@@ -34,8 +34,7 @@ Bash
 git clone https://github.com/Hcherotich/python-CLI-O.git
 
 3.	Run the Application:
-4.	
-Bash
+	Bash
 cd Blog-Management-System
 
 python3 main.py
