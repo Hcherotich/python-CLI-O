@@ -1,23 +1,38 @@
-This README provides a comprehensive overview of the Python CLI application you've developed for managing blog posts and user interactions. It utilizes a custom Object-Relational Mapper (ORM) and leverages the Click library for building the CLI interface.
+This README provides a comprehensive overview of the Python CLI application you've developed for managing blog posts and user interactions. 
+It utilizes a custom Object-Relational Mapper (ORM) and leverages the Click library for building the CLI interface.
+
 
 Project Name: Blog Management System
 
 Description:
 
-This application allows you to manage a simple blog through a user-friendly command-line interface (CLI). It utilizes a custom Object-Relational Mapper (ORM) built with peewee and leverages the Click library for building the CLI interface.
+This application allows you to manage a simple blog through a user-friendly command-line interface (CLI). 
+It utilizes a custom Object-Relational Mapper (ORM) built with peewee and leverages the Click library for building the CLI interface.
+
 Features:
+
 •	User Management: 
 o	Create new users.
 o	List all users.
+
 •	Post Management: 
+
 o	Create new blog posts with titles, content, and author (user) association.
+
 o	List all posts.
+
 o	List posts authored by a specific user.
+
 •	Basic CRUD Operations: 
+
 o	Create, read (list and find by ID), update (not currently implemented), and delete functionality for users and posts.
+
 •	Custom ORM: 
+
 o	Implements a lightweight ORM using peewee for database interaction, adhering to the requirement of not using existing ORMs.
+
 •	Informative Error Handling: 
+
 o	Provides clear error messages for invalid user IDs, non-existent users, and other potential issues.
 
 Getting Started:
