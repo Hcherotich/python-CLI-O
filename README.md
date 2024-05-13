@@ -7,7 +7,7 @@ Project Name: Blog Management System
 Description:
 
 This application allows you to manage a simple blog through a user-friendly command-line interface (CLI). 
-It utilizes a custom Object-Relational Mapper (ORM) built with peewee and leverages the Click library for building the CLI interface.
+It utilizes a custom Object-Relational Mapper (ORM) and leverages the Click library for building the CLI interface.
 
 Features:
 
