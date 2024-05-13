@@ -21,6 +21,7 @@ class Database:
 
     def create_tables(self):
         self.execute("CREATE TABLE IF NOT EXISTS users (id INTEGER PRIMARY KEY, name TEXT)")
+        self.execute("CREATE TABLE IF NOT EXISTS posts (id INTEGER PRIMARY KEY, title TEXT, content TEXT, user_id INTEGER, FOREIGN KEY(user_id) REFERENCES users(id))")
 
     def close(self):
         self.conn.close()
