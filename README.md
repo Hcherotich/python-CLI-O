@@ -27,10 +27,6 @@ o	List posts authored by a specific user.
 
 o	Create, read (list and find by ID), update (not currently implemented), and delete functionality for users and posts.
 
-•	Custom ORM: 
-
-o	Implements a lightweight ORM using peewee for database interaction, adhering to the requirement of not using existing ORMs.
-
 •	Informative Error Handling: 
 
 o	Provides clear error messages for invalid user IDs, non-existent users, and other potential issues.
@@ -39,7 +35,6 @@ Getting Started:
 
 1.	Prerequisites:
 o	Python 3.x
-o	peewee library (install using pip install peewee)
 o	Click library (install using pip install click)
 
 2.	Clone the Repository:
